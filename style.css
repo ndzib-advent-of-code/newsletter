@@ -1,0 +1,76 @@
+body {
+    background-color: #FFFFFF;
+    min-height: 100vh;
+}
+
+.header {
+
+    display: flex;
+    
+    padding: 150px;
+    color: white;
+    background-color: #141528;
+}
+
+.card {
+    flex: 1;
+    text-align: center;
+}
+
+.card > h1 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.card > p {
+    opacity: .6;
+}
+
+.form {
+    height: 200px;
+    margin: -100px auto 0;
+    width: 60%;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-image: linear-gradient(to right, #FE5B5D, #DE6BAF);
+    color: white;
+}
+
+.form > h2 {
+    font-size: 28px;
+    line-height: 28px;
+    font-weight: bold;
+}
+
+.form > p {
+    opacity: .8;
+}
+
+.form > .form-field {
+    margin-top: 16px;
+    display: flex;
+    border-radius: 6px;
+
+    border: 1px solid white;
+}
+
+.form > .form-field > button {
+    padding: 8px 28px;
+    background-color: white;
+    color: #9C9DAB;
+}
+
+.form > .form-field > input {
+    padding: 10px 15px;
+    background-color: transparent;
+    color: white;
+}
+
+.form > .form-field > input::placeholder {
+    color: white;
+}

@@ -1,0 +1,2 @@
+# Result
+![newsletter](newsletter.png)
